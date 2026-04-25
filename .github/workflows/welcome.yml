@@ -4,3 +4,7 @@ on:
     types: review_requested
 permissions:
   pull-requests: write
+jobs:
+  welcome:
+    name: Post welcome comment
+    runs-on: ubuntu-latest
