@@ -1,0 +1,6 @@
+name: Post welcome comment
+on:
+  pull_request:
+    branches: welcome-workflow
+permissions:
+  pull-requests: write
